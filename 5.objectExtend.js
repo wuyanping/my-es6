@@ -292,3 +292,9 @@ console.log('对象的解构赋值需要转换为es5才能运行')
 	console.log(y)  // 2
 	console.log(z)  // 3
 }
+
+{
+	let ab = { ...a, ...b };
+	// 等同于
+	// let ab = Object.assign({}, a, b);
+}
