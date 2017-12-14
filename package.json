@@ -1,0 +1,27 @@
+{
+  "name": "es66",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build1": "babel ./1.let-const.js -d ./lib",
+    "build2": "babel ./2.variableDA.js -d ./lib",
+    "build3": "babel ./3.stringExtend.js -d ./lib",
+    "build4": "babel ./4.arrayExtend.js -d ./lib",
+    "build5": "babel ./5.objectExtend.js -d ./lib",
+    "build6": "babel ./1.let-const.js -d ./lib",
+    "build7": "babel ./1.let-const.js -d ./lib",
+    "build8": "babel ./1.let-const.js -d ./lib",
+    "build9": "babel ./1.let-const.js -d ./lib",
+    "build10": "babel ./1.let-const.js -d ./lib"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1"
+  }
+}
